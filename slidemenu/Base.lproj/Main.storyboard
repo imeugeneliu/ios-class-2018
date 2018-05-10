@@ -18,161 +18,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgLogin copy 3" translatesAutoresizingMaskIntoConstraints="NO" id="Hx2-OX-gyi">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Midterm Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7p-dS-sS6">
-                                <rect key="frame" x="37" y="123" width="300" height="42"/>
+                                <rect key="frame" x="37.333333333333343" y="123" width="299.66666666666663" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gx-rx-buz">
-                                <rect key="frame" x="0.0" y="88" width="175" height="690"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgLogin copy 3" translatesAutoresizingMaskIntoConstraints="NO" id="Hx2-OX-gyi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="YBg-8c-8lO">
+                                <rect key="frame" x="100.00000000000001" y="148" width="175.33333333333337" height="300"/>
                                 <subviews>
-                                    <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDF-V5-fwt">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="690"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Klc-FD-7dm">
-                                            <rect key="frame" x="0.0" y="0.0" width="175" height="690"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJm-0l-ViZ">
-                                                    <rect key="frame" x="10" y="70" width="155" height="40"/>
-                                                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="AI4-ZA-bqJ"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <state key="normal" title="Basketball">
-                                                        <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="0.70352632709999996" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <integer key="value" value="15"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                    <connections>
-                                                        <segue destination="dmd-hh-I90" kind="show" identifier="segueToBasketball" id="Ggo-em-IbO"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAz-9y-LjF">
-                                                    <rect key="frame" x="10" y="130" width="155" height="40"/>
-                                                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="oD3-6o-gam"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <state key="normal" title="Soccer">
-                                                        <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="0.70352632709999996" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <integer key="value" value="15"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                    <connections>
-                                                        <segue destination="dmd-hh-I90" kind="show" identifier="segueToSoccer" id="0Wx-xw-CLB"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ldg-H6-l1g">
-                                                    <rect key="frame" x="10" y="190" width="155" height="40"/>
-                                                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="VI3-ew-ZrY"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <state key="normal" title="Football">
-                                                        <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="0.70352632709999996" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <integer key="value" value="15"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                    <connections>
-                                                        <segue destination="dmd-hh-I90" kind="show" identifier="segueToFootball" id="eUf-Qq-DuH"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZD-6B-mEY">
-                                                    <rect key="frame" x="10" y="10" width="155" height="40"/>
-                                                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="Qjz-AL-gAr"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <state key="normal" title="Baseball">
-                                                        <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="0.70352632709999996" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <integer key="value" value="15"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                    <connections>
-                                                        <segue destination="dmd-hh-I90" kind="show" identifier="segueToBaseball" id="SRt-XV-BVy"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUZ-XB-at6">
-                                                    <rect key="frame" x="10" y="250" width="155" height="40"/>
-                                                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="GWh-Nr-tdN"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <state key="normal" title="Hockey">
-                                                        <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="0.70352632709999996" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <integer key="value" value="15"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                    <connections>
-                                                        <segue destination="dmd-hh-I90" kind="show" identifier="segueToHockey" id="hSN-hS-mEr"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="RJm-0l-ViZ" firstAttribute="leading" secondItem="Klc-FD-7dm" secondAttribute="leading" constant="10" id="0FU-hk-M6x"/>
-                                                <constraint firstAttribute="trailing" secondItem="Ldg-H6-l1g" secondAttribute="trailing" constant="10" id="0HA-qh-z7X"/>
-                                                <constraint firstItem="RJm-0l-ViZ" firstAttribute="top" secondItem="2ZD-6B-mEY" secondAttribute="bottom" constant="20" id="0UD-Nv-Vxg"/>
-                                                <constraint firstItem="LUZ-XB-at6" firstAttribute="leading" secondItem="Klc-FD-7dm" secondAttribute="leading" constant="10" id="1LD-p5-mF6"/>
-                                                <constraint firstAttribute="trailing" secondItem="LUZ-XB-at6" secondAttribute="trailing" constant="10" id="2vg-Dj-htz"/>
-                                                <constraint firstAttribute="trailing" secondItem="RJm-0l-ViZ" secondAttribute="trailing" constant="10" id="5Lq-o6-Vlf"/>
-                                                <constraint firstItem="2ZD-6B-mEY" firstAttribute="leading" secondItem="Klc-FD-7dm" secondAttribute="leading" constant="10" id="Mg0-w1-VxX"/>
-                                                <constraint firstAttribute="trailing" secondItem="HAz-9y-LjF" secondAttribute="trailing" constant="10" id="NrO-WZ-rZi"/>
-                                                <constraint firstItem="HAz-9y-LjF" firstAttribute="leading" secondItem="Klc-FD-7dm" secondAttribute="leading" constant="10" id="Ya4-rI-Tga"/>
-                                                <constraint firstItem="2ZD-6B-mEY" firstAttribute="centerX" secondItem="Klc-FD-7dm" secondAttribute="centerX" id="b5T-US-7Yp"/>
-                                                <constraint firstItem="Ldg-H6-l1g" firstAttribute="top" secondItem="HAz-9y-LjF" secondAttribute="bottom" constant="20" id="iof-4b-gCK"/>
-                                                <constraint firstItem="2ZD-6B-mEY" firstAttribute="top" secondItem="Klc-FD-7dm" secondAttribute="top" constant="10" id="ofp-8l-HX2"/>
-                                                <constraint firstAttribute="trailing" secondItem="2ZD-6B-mEY" secondAttribute="trailing" constant="10" id="sFD-wZ-n77"/>
-                                                <constraint firstItem="HAz-9y-LjF" firstAttribute="top" secondItem="RJm-0l-ViZ" secondAttribute="bottom" constant="20" id="slt-qG-TZ0"/>
-                                                <constraint firstItem="Ldg-H6-l1g" firstAttribute="leading" secondItem="Klc-FD-7dm" secondAttribute="leading" constant="10" id="vlr-Wf-sow"/>
-                                                <constraint firstItem="LUZ-XB-at6" firstAttribute="top" secondItem="Ldg-H6-l1g" secondAttribute="bottom" constant="20" id="yw6-h1-zsJ"/>
-                                            </constraints>
-                                        </view>
-                                        <blurEffect style="light"/>
-                                    </visualEffectView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcH-bD-33n">
+                                        <rect key="frame" x="33.666666666666657" y="0.0" width="108" height="48"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="baseball"/>
+                                        <connections>
+                                            <action selector="goGoTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q9L-BX-dEe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIS-Qk-F0F">
+                                        <rect key="frame" x="21.666666666666671" y="63" width="132" height="48"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="basketball"/>
+                                        <connections>
+                                            <action selector="goGoTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FZb-Wq-aaK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHj-df-kE6">
+                                        <rect key="frame" x="39.333333333333343" y="126" width="97" height="48"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="football"/>
+                                        <connections>
+                                            <action selector="goGoTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vel-vc-IXF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rB-VS-vjE">
+                                        <rect key="frame" x="44.333333333333343" y="189" width="87" height="48"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="soccer"/>
+                                        <connections>
+                                            <action selector="goGoTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="chG-2H-oK2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fok-vk-SId">
+                                        <rect key="frame" x="40.666666666666657" y="252" width="94" height="48"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="hockey"/>
+                                        <connections>
+                                            <action selector="goGoTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dmk-Fz-JlP"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="vDF-V5-fwt" firstAttribute="centerX" secondItem="3gx-rx-buz" secondAttribute="centerX" id="1WZ-AO-4Ar"/>
-                                    <constraint firstAttribute="width" constant="175" id="M34-rN-aWQ"/>
-                                    <constraint firstItem="vDF-V5-fwt" firstAttribute="centerY" secondItem="3gx-rx-buz" secondAttribute="centerY" id="NKY-0O-gkv"/>
-                                    <constraint firstItem="vDF-V5-fwt" firstAttribute="height" secondItem="3gx-rx-buz" secondAttribute="height" id="kvm-cR-ffg"/>
-                                    <constraint firstItem="vDF-V5-fwt" firstAttribute="width" secondItem="3gx-rx-buz" secondAttribute="width" id="okv-MY-KbR"/>
-                                </constraints>
-                            </view>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3gx-rx-buz" secondAttribute="bottom" id="IAN-64-ElP"/>
+                            <constraint firstItem="YBg-8c-8lO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="IBU-YC-KRK"/>
+                            <constraint firstItem="YBg-8c-8lO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JPV-l0-EcH"/>
                             <constraint firstItem="o7p-dS-sS6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="X7h-wc-VyA"/>
-                            <constraint firstItem="3gx-rx-buz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a5g-ah-NNb"/>
                             <constraint firstItem="o7p-dS-sS6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="csB-D2-oHc"/>
-                            <constraint firstItem="3gx-rx-buz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vaH-4z-cRB"/>
+                            <constraint firstItem="YBg-8c-8lO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="fxK-qU-XOc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -181,9 +95,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="ZG0-nR-2h9"/>
                     <connections>
-                        <outlet property="blurView" destination="vDF-V5-fwt" id="saA-qP-1CY"/>
-                        <outlet property="slideView" destination="3gx-rx-buz" id="8up-qc-nN9"/>
-                        <outlet property="viewConstraint" destination="a5g-ah-NNb" id="PAb-Ut-3n2"/>
+                        <segue destination="dmd-hh-I90" kind="show" identifier="goTable" id="RqR-u2-3mE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -214,7 +126,7 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ati-2n-mc5">
                                             <rect key="frame" x="15" y="15" width="134.66666666666666" height="69.666666666666671"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OUg-HO-YGV">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OUg-HO-YGV">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="0dX-6w-xgt"/>
@@ -333,7 +245,4 @@
     <resources>
         <image name="bgLogin copy 3" width="414" height="736"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Ggo-em-IbO"/>
-    </inferredMetricsTieBreakers>
 </document>
