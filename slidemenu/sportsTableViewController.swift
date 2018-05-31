@@ -87,7 +87,6 @@ class sportsTableViewController: UITableViewController
         cell.sportsImage.image = UIImage(named: image[indexPath.row])
         return cell
     }
-    
 /*    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         if segue.identifier == "toWeb"
