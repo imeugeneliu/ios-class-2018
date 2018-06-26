@@ -5,15 +5,15 @@
 <p>提供使用者最新地震資訊和視覺化</p>
 
 <p>APP主頁</p>
-<img src=https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/HOMEMENU.imageset/HOMEMENU.png>
+<img src="https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/HOMEMENU.imageset/HOMEMENU.png" height = 600 width = 330>
 <p>how to navigate around the APP</p>
-<img src=https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/SIDEMENU.imageset/SIDEMENU.png>
+<img src="https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/SIDEMENU.imageset/SIDEMENU.png" height = 600 width = 330>
 <p>連結到我們實驗室的粉專</p>
-<img src=https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/FBGROUP.imageset/FBGROUP.png>
+<img src="https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/FBGROUP.imageset/FBGROUP.png" height = 600 width = 330>
 <p>推播通知</p>
-<img src=https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/NOTIFICATION.imageset/NOTIFICATION.png>
+<img src="https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/NOTIFICATION.imageset/NOTIFICATION.png" height = 600 width = 330>
 <p>結合實驗室地震視覺化的網站</p>
-<img src=https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/WEBVIEW.imageset/WEBVIEW.png
+<img src="https://github.com/imeugeneliu/Earthquake/blob/master/Earthquake/Assets.xcassets/WEBVIEW.imageset/WEBVIEW.png" height = 600 width = 330
 >
 
 
